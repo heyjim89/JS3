@@ -1,28 +1,27 @@
 
-// var phone = prompt("Enter your phone number XXX-XXX-XXXX");
-// if ( (phone.charAt(3) === '-') && (phone.charAt(7) == '-' ) ) {
-// 	alert("correct");
-// }
-// else {
-// 	alert(" Phone naming schema incorrect. Please use XXX-XXX-XXXX ");
-// }
+var phone = prompt("Enter your phone number XXX-XXX-XXXX");
+if ( (phone.charAt(3) === '-') && (phone.charAt(7) == '-' ) ) {
+	alert("correct");
+}
+else {
+	alert(" Phone naming schema incorrect. Please use XXX-XXX-XXXX ");
+}
 
-// var birth = prompt("Enter your birthdate XX/XX/XX");
-// if ( (birth.charAt(2) === '/') && (birth.charAt(5) == '/' ) ) {
-// 	alert("correct");
-// }
-// else {
-// 	alert(" Naming schema incorrect. Please use XX/XX/XX ");
-// }
+var birth = prompt("Enter your birthdate XX/XX/XX");
+if ( (birth.charAt(2) === '/') && (birth.charAt(5) == '/' ) ) {
+	alert("correct");
+}
+else {
+	alert(" Naming schema incorrect. Please use XX/XX/XX ");
+}
 
-// var postal = prompt("Enter your postal XXXXX or XXXXX-XXXX");
-// if ( (postal.length === 5) || (postal.charAt(5) == '-' ) ) {
-// 	alert("correct");
-// }
-// else {
-// 	alert(" Naming schema incorrect. Please use XXXXX or XXXXX-XXXX");
-// }
-
+var postal = prompt("Enter your postal XXXXX or XXXXX-XXXX");
+if ( (postal.length === 5) || (postal.charAt(5) == '-' ) ) {
+	alert("correct");
+}
+else {
+	alert(" Naming schema incorrect. Please use XXXXX or XXXXX-XXXX");
+}
 
 var state = prompt("Enter your State (ex NJ or CO)");
 if ( (state.length === 2) && (state === state.toUpperCase() ) ) {
@@ -30,6 +29,14 @@ if ( (state.length === 2) && (state === state.toUpperCase() ) ) {
 }
 else {
 	alert(" Naming schema incorrect. Please use XX ");
+}
+
+var married = prompt("Are you married?");
+if ( (married.toUpperCase() === "YES")) {
+	alert("correct");
+}
+else {
+	alert(" YAY ");
 }
 
 
