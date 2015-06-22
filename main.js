@@ -1,10 +1,26 @@
-// alert('Hello Boulder!');
 
-var phone = prompt("Enter your phone number XXX-XXX-XXXX");
-var isValid = false;
-if (phone.charAt(4) === '-'){
+// var phone = prompt("Enter your phone number XXX-XXX-XXXX");
+// if ( (phone.charAt(3) === '-') && (phone.charAt(7) == '-' ) ) {
+// 	alert("correct");
+// }
+// else {
+// 	alert(" Phone naming schema incorrect. Please use XXX-XXX-XXXX ");
+// }
+
+var birth = prompt("Enter your birthdate XX/XX/XX");
+if ( (birth.charAt(2) === '/') && (birth.charAt(5) == '/' ) ) {
 	alert("correct");
 }
+else {
+	alert(" Naming schema incorrect. Please use XX/XX/XX ");
+}
+
+
+
+
+
+
+
 
 // for(var i=1; i<4; i++){
 // 	console.log(i, i, i);
@@ -13,6 +29,14 @@ if (phone.charAt(4) === '-'){
 // 		console.log(i, i, i);
 // 	}
 // }
+
+
+
+
+
+
+
+// Initial Java
 
 // console.log("You entered " + word);
 // console.log("There are " + word.length + " characters in the word.");
