@@ -7,12 +7,29 @@
 // 	alert(" Phone naming schema incorrect. Please use XXX-XXX-XXXX ");
 // }
 
-var birth = prompt("Enter your birthdate XX/XX/XX");
-if ( (birth.charAt(2) === '/') && (birth.charAt(5) == '/' ) ) {
+// var birth = prompt("Enter your birthdate XX/XX/XX");
+// if ( (birth.charAt(2) === '/') && (birth.charAt(5) == '/' ) ) {
+// 	alert("correct");
+// }
+// else {
+// 	alert(" Naming schema incorrect. Please use XX/XX/XX ");
+// }
+
+// var postal = prompt("Enter your postal XXXXX or XXXXX-XXXX");
+// if ( (postal.length === 5) || (postal.charAt(5) == '-' ) ) {
+// 	alert("correct");
+// }
+// else {
+// 	alert(" Naming schema incorrect. Please use XXXXX or XXXXX-XXXX");
+// }
+
+
+var state = prompt("Enter your State (ex NJ or CO)");
+if ( (state.length === 2) && (state === state.toUpperCase() ) ) {
 	alert("correct");
 }
 else {
-	alert(" Naming schema incorrect. Please use XX/XX/XX ");
+	alert(" Naming schema incorrect. Please use XX ");
 }
 
 
