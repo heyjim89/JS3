@@ -1,15 +1,27 @@
 // alert('Hello Boulder!');
 
-var word = prompt("Enter any word");
+var phone = prompt("Enter your phone number XXX-XXX-XXXX");
+var isValid = false;
+if (phone.charAt(4) === '-'){
+	alert("correct");
+}
 
-console.log("You entered " + word);
-console.log("There are " + word.length + " characters in the word.");
-console.log("The third character is " + word.charAt(2));
-console.log("Lowercase " + word.toLowerCase());
-console.log("Uppercase " + word.toUpperCase());
+// for(var i=1; i<4; i++){
+// 	console.log(i, i, i);
+	
+// 	for(var i=2; i<4; i++){
+// 		console.log(i, i, i);
+// 	}
+// }
 
-console.log("Example: " + "Sometimes people like to " + word);
-console.log("Subword: " + word.substring(1,4));
+// console.log("You entered " + word);
+// console.log("There are " + word.length + " characters in the word.");
+// console.log("The third character is " + word.charAt(2));
+// console.log("Lowercase " + word.toLowerCase());
+// console.log("Uppercase " + word.toUpperCase());
+
+// console.log("Example: " + "Sometimes people like to " + word);
+// console.log("Subword: " + word.substring(1,4));
 
 
 // The word they entered, verbatim
